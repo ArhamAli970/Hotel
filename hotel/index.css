@@ -3,16 +3,27 @@
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
-}
+    font-family: "Reddit Sans Condensed", sans-serif;
+    
+color: black;}
+
+    h1,h2,h3,h4{
+        font-family: "Briem Hand", cursive;
+    }
+    body{
+        height: 100vh;
+    }
 
 .box{
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+    height: 100%;
 }
 
 .nav-box1{
     display: flex;
+    /* z-index: 1; */
     justify-content: space-around;
     align-items: center;
     text-align: center;
@@ -92,42 +103,73 @@ transition: 0.3s;
     width: 93%;
 }
 
+.sk{
+     /* background: linear-gradient(to top, #FFCC80, #FFA07A,rgb(243, 243, 162), #FF7F50, #FF6347);  */
+     background: linear-gradient(
+        to bottom,  /* Gradient direction */
+        #BEC5D1,    /* Cloudy gray at the top */
+        #87A8C6,    /* Light blue-gray (cloudy sky) */
+        #FDCB82,    /* Soft orange */
+        #F29F74,    /* Sunset orange */
+        #F6746F     /* Deep sunset red */
+    );
+    /* /* background: linear-gradient(to top, #FFDAB9, #FFD700, #FFB6C1, #F08080, #E6E6FA);  */
+   
+}  
+
 .bgp{
     height: 32rem;
     width: 95%;
     position: relative;
-
     background-image: url("https://thecolonypalmbeach.com/lottie/images/img_0.png");
     background-repeat: no-repeat;
+    
     background-attachment: fixed;
     background-size:contain;
     background-position: center;
     z-index: 1;
-    
-
+}
+.brds{
+    color: black;
+    position: absolute;
+    top: 4rem;
+    left: 20%;
 }
 
 .sun{
     height: 3rem;
     position: absolute;
-    left: 30%;
-    top: 2.5rem;
+    left: 25%;
+    top: 10rem;
     width: 3rem;
     border-radius:50%;
-    background-color:yellow;
+    background-color:#F29F05;
     z-index: 1;
 }
 
-.sky{
-    height: 7rem;
+/* .sky{
+    height: 6rem;
     position: absolute;
-    left: 20%;
-    top: 3rem;
-    width: 50%;
-    border-radius: 50% 20% 20% 50%;
+    width: 16rem;
+    border-radius:39%;
+    border-top-left-radius: 75%;
+    border-top-right-radius: 85%;
     background-color: #b9e2f5;
     z-index: -1;
 }
+
+.sky1{
+    left: 20%;
+    top: 3rem;
+}
+.sky2{
+    left: 28%;
+    top: 5rem;
+}
+.sky3{
+    left: 80%;
+    top: 4rem;
+} */
 
 
 .up{
