@@ -1,0 +1,141 @@
+
+ .navbar{
+    position: relative;
+} 
+
+.nav-box1{
+    display: flex;
+    /* position: relative; */
+    z-index: 1;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    background-color: #FFFFED;
+    padding: 1rem 0.5rem;
+
+} 
+ .nav-box2{z-index: 1;}
+
+.nav-box2 ul{
+    display: flex;
+    padding: 1rem 0.2rem;
+    justify-content: space-around;
+    align-items: center;   
+    list-style: none;
+    background-color: #FFFFED;
+}  
+
+.add{
+    background-image: url("https://be-cms-api-p1.synxis.com/shs-bedesigner-services/assets/chain/27853/hotel/34768/fileStorage/image/CP_Pool_sm.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    height: 26rem;
+    /* position: relative; */
+  
+}
+
+.addLine{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    /* top: 0; */
+    bottom: 0;
+    /* text-align: center; */
+    padding: 0.5rem;
+    left: 2%;
+    height: 10rem;
+    width: 20rem;
+    background-color: rgb(254, 250, 246,0.6);
+}
+
+
+
+
+
+
+.main{
+    margin:  2rem 0.5rem;
+}
+
+.room1{
+    display: flex;
+    min-height: 27rem;
+    margin-bottom: 1rem;
+}
+.rm1 ul li{
+    text-transform: uppercase;
+}
+.ph1{
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 28%;
+    border-radius:0.4rem 0rem 0rem 0.4rem;
+    border-right: none;
+}
+
+.ph1 img{
+    border-radius: 0.8rem;
+    width: 80%;
+    height: 60%;
+    transition: 0.3s;
+}
+
+.ph1 img:hover{
+    width: 88%;
+    height: 65%;
+    opacity: 0.9;
+}
+
+
+.roomDis{
+    border: 1px solid black;
+    padding: 0.8rem;
+    border-left: none;
+    border-radius: 0rem 0.4rem 0.4rem 0rem;
+    flex: 66%;
+}
+
+.roomDis ul{display: flex;justify-content: space-around;}
+
+.rm1{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    /* border: 1px solid black; */
+    min-height: 10rem;
+    padding-left: 1rem;
+}
+
+.rate{
+    display: flex;
+    justify-content: space-between;
+    margin: 0.9rem;
+}
+.rate p{
+    text-transform: capitalize;
+}
+
+.rarht{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.bkn{
+    font-size: 1.3rem;
+    background-color: #5b4e48;
+    border: 1px solid #5b4e48;
+    border-radius: 0.3rem;
+    padding: 0.4rem;
+    color: white;
+}
+
+
+
+
+
+
+

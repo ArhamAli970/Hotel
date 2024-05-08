@@ -1,0 +1,37 @@
+.mbox{
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.images{
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.im{
+    flex: 26%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 16rem;
+}
+
+.im img{
+ width: 80%;
+ height: 90%;
+ transition: 0.3s;
+
+ object-fit: cover;
+}
+
+.hi{
+    height: 23rem;
+}
+
+.im img:hover{
+    height: 94%;
+    width: 84%;
+    opacity: 0.9;
+
+}
+
